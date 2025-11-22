@@ -1,0 +1,8 @@
+[build]
+  # This project is static, so no build command is needed.
+  # The root directory will be published.
+  publish = "/" 
+
+[functions]
+  # Directory where our serverless function code lives.
+  directory = "netlify/functions/"
